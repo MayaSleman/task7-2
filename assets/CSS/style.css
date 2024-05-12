@@ -12,6 +12,7 @@
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
+    padding-bottom: 22px;
 }
 .border{
     border: 2px solid black;
@@ -41,7 +42,7 @@
     width: 100px;
     cursor: pointer;
 }
-section{
+.section2,.section3,.section4{
     height: 100vh;
 }
 .text2{
@@ -152,14 +153,17 @@ section{
     .text2{
         padding-top: 0px;
     }
+    .heroImage{
+        margin: 0 auto;
+    }
+    .heroImage{
+        width: 80%;
+    }
 }
 @media (max-width: 350px ) {
     .text{
         width: 100%;
         text-align: center;
-    }
-    .heroImage{
-        width: 80%;
     }
     .stars i{
         padding: 0px !important;
