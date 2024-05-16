@@ -21,6 +21,7 @@
 .text{
     color: white;
     width: 50%;
+    text-align: center;
 }
 .text h1{
     font-size: 40px;
