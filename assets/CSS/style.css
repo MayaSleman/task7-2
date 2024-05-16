@@ -21,7 +21,6 @@
 .text{
     color: white;
     width: 50%;
-    text-align: center;
 }
 .text h1{
     font-size: 40px;
@@ -53,6 +52,7 @@
     justify-content: center;
     flex-direction: column;
     padding-top: 60px;
+    padding-right: 60px;
 }
 .section2 h2{
     padding-bottom: 20px;
@@ -70,7 +70,7 @@
 .fa-sun{
     display: none;
     color: white;
-    padding: 0 0 450px 30px;
+    padding: 0 0 470px 30px;
 }
 .fa-moon {
     color: black;
@@ -150,6 +150,11 @@
 .stars i.active{
     color:  #ffd900;
 }
+@media (max-width: 768px ){
+    .text{
+        text-align: center;
+    }
+}
 @media (max-width: 552px ){
     .text2{
         padding-top: 0px;
@@ -174,6 +179,9 @@
     }
     .fa-moon,.fa-sun{
         padding: 20px 0;
+    }
+    .text2 {
+         padding-right: 0;
     }
 }
 .moonbtn{
